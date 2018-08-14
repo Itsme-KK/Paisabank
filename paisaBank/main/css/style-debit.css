@@ -1,0 +1,94 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 540px;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .error {color: #FF0000;}
+    .heading {
+      margin-top: 25px;
+      text-align: center;    
+    }
+    .heading h1{
+      color: black;
+    }
+    .paisa{
+      color:skyblue;
+    }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #3232ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 200px;
+}
+
+input[type=submit]:hover {
+    background-color: #4c4cff;
+}
+
+    .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+      .logo a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em; 
+}
+
+.copyright{
+  color: white;
+  font-style: gray;
+}
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }

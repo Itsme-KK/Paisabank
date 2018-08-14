@@ -1,0 +1,38 @@
+
+		table {
+		    border-collapse: collapse;
+		    border-spacing: 0;
+		    width: 100%;
+		    border: 1px solid #ddd;
+		}
+
+		th, td {
+		    border: none;
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even){background-color: #f2f2f2}
+
+		.heading{
+			padding: 10px;
+			font-size: 20px;
+			text-align: center;
+			background-color: lightgrey;
+			font-family: Georgia;
+		}
+		.text{
+			color:black;
+		}
+		.paisa{
+			color:skyblue;
+		}
+		footer {
+	      background-color: #2F4F4F;
+	      padding: 25px;
+	      position: fixed;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  text-align: center;
+	    }
